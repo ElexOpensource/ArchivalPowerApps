@@ -1,0 +1,6 @@
+function hide(executionContext)
+{
+ var formContext = executionContext.getFormContext();
+ var tabObj = formContext.ui.tabs.get("Archival Form");
+ tabObj.setVisible(false);
+}

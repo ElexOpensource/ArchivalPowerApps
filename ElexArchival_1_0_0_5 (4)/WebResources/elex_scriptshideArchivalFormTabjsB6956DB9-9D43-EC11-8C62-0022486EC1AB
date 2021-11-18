@@ -1,0 +1,12 @@
+function hideTab(executionContext) {
+debugger;
+var formContext = executionContext.getFormContext();
+
+var result = formContext.getAttribute("elex_recordstatus").getValue(); 
+
+if(result === null){} else{
+var tabObj = formContext.ui.tabs.get("ArchivalForm");
+
+tabObj.setVisible(false);
+}
+}
