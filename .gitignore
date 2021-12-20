@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Attachment Mover/Attachment Mover/Application/.vs/AttachmentMover/v17
+/Attachment Mover/Attachment Mover/Application/bin/Debug
+/Attachment Mover/Attachment Mover/Application/obj/Debug
+/Attachment Mover/Attachment Mover/Application/packages
+/Attachment Mover/Attachment Mover/Application/AttachmentMover.csproj.user
