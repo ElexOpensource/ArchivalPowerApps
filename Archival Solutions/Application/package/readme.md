@@ -1,0 +1,1 @@
+folder contains the solution managed and unmanaged zip files

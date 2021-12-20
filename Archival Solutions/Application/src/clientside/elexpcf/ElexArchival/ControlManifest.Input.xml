@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PCFControls" constructor="ElexArchival" version="0.0.539" display-name-key="ElexArchival" description-key="ElexArchival description" control-type="standard" >
+    <property name="displayName" display-name-key="Entity Display Name" description-key="The display name of the Entity" of-type="SingleLine.Text" usage="bound" required="true" />
+    <external-service-usage enabled="false">   
+    </external-service-usage>
+  
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="styles.css" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    
+  </control>
+</manifest>
