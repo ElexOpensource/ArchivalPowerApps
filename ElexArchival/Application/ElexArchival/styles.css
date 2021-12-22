@@ -1,0 +1,166 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+  
+  .labelStyling{
+    border-color: transparent;
+    padding-right: 0.5rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: rgb(85, 80, 80);
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0px;
+    line-height: 2.5rem;
+    font-weight:600;
+    font-size: 1rem;
+    height: 2.5rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-overflow: ellipsis;
+    position:absolute;
+    text-align: left;
+    float: left;
+  }
+  
+  .inputStyling[type=text], .inputStyling[type = number]{ 
+      width: 100%;
+      border: 1px solid #c8c8c8;
+      border-radius: 4px;
+      padding: 9px 7px;
+      margin-bottom: 10px;
+      margin-top: 0px; 
+      margin-left: 200px;
+  }
+
+  .inputStyling[type = checkbox]{
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    padding: 9px 7px;
+    margin-bottom: 10px;
+    margin-top: 0px; 
+    margin-left: 10px;
+  }
+
+  .inputStyling :hover{
+    border-color:rgb(102, 102, 102);
+  }
+
+  div{
+    text-align: left;
+  }
+
+  .buttonStyle{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 2px;
+    cursor: pointer;
+    margin-left: 650px;
+  }
+
+  .tableStyle{
+      border-style:double;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  
+  .cellStyle{
+    border: 1px solid #ddd;
+    padding: 12px;
+    padding-top: 0px;
+    text-align: left;
+    background-color: #ddd;
+    color: black;
+    padding-inline: 0px;
+    min-width: 0; 
+  }
+  
+  .textInput{
+    position:absolute;margin-left:10px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  #ulList{
+      display: flex;
+      list-style-type: none;
+      margin-left: 500px;
+    }
+  
+  #ulList li:hover{
+    background-color: dodgerblue;
+  }
+  
+  .scrollit {
+    overflow:auto;
+    height: 300px;
+  }
+  .checkBoxStyles{
+   margin: -200px;
+  }
+  
+
+.pcfForm {
+  width: 75%;
+}
+.pcfForm .formField {
+  display: flex;
+  margin: 0 0 20px;
+}
+.pcfForm .formField label {
+  width: 15%;
+}
+.pcfForm .formField .formInput,
+.pcfForm .formField .formTextArea {
+  border: 1px solid #a0a0a0;
+}
+.pcfForm .formField .formInput,
+.pcfForm .formField .entitySearchInput {
+  width: 80%;
+}
+.pcfForm .formField .formTextArea {
+  width: 81.5%;
+}
+.pcfForm .formField .entitySearchInput {
+  position: relative;
+}
+.pcfForm .formField .entitySearchInput .formInput {
+  width: 100%;
+}
+.pcfForm .formField .entitySearchBTN {
+  position: absolute;
+  right: -18px;
+  top: 0;
+  padding: 0 15px;
+  height: 29px;
+}
