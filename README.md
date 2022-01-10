@@ -1,5 +1,4 @@
 # Archival Power Apps Suite
 The Archive PowerApp suite comes with two solutions as below
 
-1) Attachment Mover (Desktop Component) which picks the folders/files from the local computer and transfers the same to Dynamics 365
-2) Dynamics365 workflow files 
+This application helps user to move the unused or historical data from their database to the application where according to a set date the data can be deleted or purged (gets inactive).
