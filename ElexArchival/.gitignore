@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AttachmentMover/.vs/AttachmentMover
+/AttachmentMover/bin/Debug
+/AttachmentMover/obj
+/AttachmentMover/packages
+/AttachmentMover/AttachmentMover.csproj.user
+/Test Location
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/Joy CRM/v16/.suo
